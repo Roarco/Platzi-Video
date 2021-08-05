@@ -75,13 +75,13 @@ text-decoration: underline;
     color: white;
     font-size: 16px;
     position: absolute;
-    padding-left: 30px;
+    padding-left: 55px;
     width: 100%;
 }
 .carousel {
     width: 100%;
     overflow: scroll;
-    padding-left: 30px;
+    padding-left: 55px;
     position: relative;   
    }
 .carousel__container {
@@ -202,6 +202,7 @@ text-decoration: underline;
     height: 8px;
     background: rgba(255, 255, 255,.4);
     border: radius 4px;
+    display: none;
 }
 ::-webkit-scrollbar:hover {
     background: #b3b3b3;
