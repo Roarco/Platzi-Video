@@ -26,6 +26,47 @@ body {
     padding:0px 30px;
     min-height: calc(100vh - 200px);
 }
+.NotFound__container{
+    background: linear-gradient(#21C08B, #AB88FF);
+    display: flex;
+    color: white;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 200px);
+}
+.NotFound__container--title{
+    min-height: 457px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-bounce{
+    font-size: 80px; 
+    text-align: center;
+    margin-bottom: -18px;
+
+}
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+.bounce {
+    animation-name: bounce;
+}
+.NotFound__container--title p{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
 
 .Sign_up__container{
     background-color: rgba(255, 255, 255,0.1);
